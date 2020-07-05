@@ -1,0 +1,31 @@
+.header {
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, .7), rgba($color-primary-dark, .7)), url(../background1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 95vh;
+    position: relative;
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 50%, 80% 80%, 20% 80%, 0 50%, 0 0);
+clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 50%, 80% 80%, 20% 80%, 0 50%, 0 0);
+
+    &_text-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &_logo {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    &_logo-box {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+    
+    }
+
+
+}

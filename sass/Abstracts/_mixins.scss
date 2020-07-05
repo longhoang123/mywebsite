@@ -1,0 +1,19 @@
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear:both;
+    }
+}
+
+@mixin absCenter {
+    margin: 10% auto;
+    text-align: center;
+}
+
+@mixin absCenter1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
